@@ -1,0 +1,54 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+h1, h2, div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+h1{
+  padding: 30px;
+}
+
+input{
+  margin: 30px;
+}
+
+h2{
+  margin: 10px;
+}
+
+li{
+  padding: 3px;
+}
+
+h1 + div{
+  font-size: 20px;
+}
+
+h1 + div + div{
+  font-size: 13px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
